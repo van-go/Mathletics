@@ -23,7 +23,7 @@ mets$Games
 mets$W.pct = round(mets$W/mets$Games, 3)  #rounds to 3 places
 mets$W.pct
 
-mets$`Over500` = ifelse(mets$W > mets$L, TRUE, FALSE) # *** not sure what accent mark is doing!!!
+mets$`Over500` = ifelse(mets$W > mets$L, TRUE, FALSE) 
 mets$`Over500`
 
 next_year = c(2017, "New York Mets", 162, 0, 162, 1.000, TRUE)  #adding new row with rbind
